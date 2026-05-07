@@ -1,0 +1,584 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your submission was sent successfully! Close
+Thank you for contacting us. A member of our team will be in touch shortly.
+Close
+You have successfully unsubscribed! Close
+Thank you for signing up for our newsletter!
+In these regular emails you will find the latest updates about Ubuntu and
+upcoming events where you can meet our team.Close
+Your preferences have been successfully updated. Close_notification
+Please try again or file_a_bug_report. Close
+Canonical_Ubuntu
+    * Menu
+    * Products
+    * Use_cases
+    * Support
+    * Community
+    * Download_Ubuntu
+ [Unknown INPUT type]  [Unknown INPUT type]
+
+
+****** A CTO's guide to real-time Linux ******
+***** Understanding real-time systems, their use cases and inner workings.
+*****
+===============================================================================
+Download_now
+
+****** Ubuntu 26.04 LTS Resolute Raccoon is available for download ******
+Discover the latest and greatest features in our most recent long term
+supported release.
+===============================================================================
+Download_for_free Read_the_deep_dive ›
+
+The_Standard_Support_period_for_Ubuntu_20.04_LTS_has_ended._Discover_your
+options.
+Take action today
+*** ç§ãã¡ã®æ¥æ¬ã®ã¦ã§ããµã¤ããè©¦ãã¦ã¿ã¦ãã ãã › ***
+
+*** å¨ï¼ä½ ç¥éæä»¬æä¸­æç«åï¼ç«å³å¸¦æå»ï¼ › ***
+
+===============================================================================
+***** Modern enterprise open source *****
+Security, support, and managed services from
+the publisher of Ubuntu.
+Get_Ubuntu_Pro Access_a_30-day_free_trial ›
+    * [AWS]
+    * [Microsoft Azure]
+    * [AT&T]
+    * [Google Cloud]
+===============================================================================
+
+**** Read_the_latest_news_on_our_blog › ****
+
+***** Latest news from our_blog › *****
+Loading...
+
+===============================================================================
+Spotlight
+
+===============================================================================
+***** Energize your engineers *****
+Better security. More packages. Newer tools. All your open source, from cloud
+to edge.
+Loved by developers and trusted by enterprises. Ubuntu is the first pick for
+organizations to support their software infrastructure and the OS chosen by 66%
+of experienced developers. (HackerEarth, Developer Survey, 2020)
+    * Authentically open source
+    * Secure by design
+    * A release cadence you can depend on
+    * Stability through long term support
+That's why Ubuntu supports the fastest, biggest, and most successful digital
+operations.
+===============================================================================
+Download_our_guide_to_adopting_Linux_securely_in_your_enterprise ›
+Build_your_AI_models_on_Ubuntu ›
+
+===============================================================================
+***** Open source security *****
+Ubuntu_Pro is more than Linux.
+Security_and_compliance for the full stack.
+Secure your open source apps. Patch the full stack, from kernel to library and
+applications, for CVE compliance. Governments and auditors certify Ubuntu for
+FedRAMP, FISMA, and HITECH.
+    * [NIST]
+    * [ASEC]
+    * [DISA]
+    * [CIS]
+    * [CSEC]
+    * Up to 15 years of security maintenance
+    * Kernel_Livepatch for 24/7 patching with no downtime
+    * Expanded_security for infrastructure and applications
+    * FIPS_140-2 cryptographic modules certified by NIST
+    * Cyber_Resilience_Act_(CRA): Meet your CRA requirements
+    * DISA/STIG hardening for DoD compliance
+    * CIS_profiles for cyber defence and malware prevention
+===============================================================================
+Discover_Ubuntu's_security_features
+
+===============================================================================
+***** Significant enterprise savings *****
+Sustainable open source at the lowest cost, everywhere.
+Rethink what's possible with Linux and open source. Companies engage Canonical
+to drive down open source operating costs. Automate everything: multi-cloud
+operations, bare metal provisioning, edge clusters, and IoT.
+    * No mandatory subscriptions for Ubuntu
+    * Security, support, and fully managed infra and apps
+    * Public_cloud, data_center, edge_cluster, and appliances
+    * Long_term_maintenance_commitment
+    * Transparent pricing for enterprise and ISV
+    * Switch_from_VMware_to_OpenStack
+===============================================================================
+Let's_talk_open_source
+
+===============================================================================
+***** Public cloud optimization *****
+Most public cloud instances are Ubuntu, for performance and security.
+[Uber]
+[Spotify]
+[BNP Paribas]
+    * Optimized kernels for AWS, Azure, Google, Oracle, IBM
+    * FIPS, CIS_hardening, and CVE fixes with Ubuntu_Pro
+    * Minimize rolling reboots with Kernel_Livepatch
+    * Network & storage performance optimization
+    * GPU enablement for machines and containers
+    * Pay-as-you-go billing, no more licenses
+    * Enterprise_support and Expanded_Security_Maintenance
+    * Cloud workload migration service
+    * Containerization and cloud-native migration service
+    * Fully managed application service
+===============================================================================
+Learn_more Contact_us ›
+
+===============================================================================
+***** Multi-cloud Kubernetes and containers *****
+AKS. EKS. GKE. Kubeadm. MicroK8s. Charmed_Kubernetes.
+All on Ubuntu.
+[AWS]
+[GCP]
+[Microsoft Azure]
+[Liberty Global]
+[ACI]
+    * Support for all public cloud Kubernetes
+    * On-prem MicroK8s, Charmed K8s, kubeadm
+    * Fully_managed_Kubernetes on-prem or public cloud
+    * Model-driven_Kubernetes_Operators
+    * Full stack support for apps, Kubernetes, and OS
+    * K8s_architecture_and_deployment_consulting
+    * Cloud-native workload migration services
+    * GPU enablement for AI/ML_workloads
+    * Bare_metal, OpenStack, and VMware
+    * Pluggable CNIs,_CSIs,_CRIs,_and_third-party_tools
+===============================================================================
+Learn_more Contact_us ›
+
+===============================================================================
+***** Carrierâgrade private cloud *****
+Operate private_cloud_the_smart_way – supported or fully_managed.
+[Best Buy]
+[BT]
+[Deutsche Telekom]
+[Rabobank]
+[Bloomberg]
+[AT&T]
+    * 15-year security_maintenance and support
+    * Hyperconverged or segregated architecture
+    * Encryption_at_rest_for_GDPR,_HIPAA,_FedRAMP
+    * Wide choice of SDN and storage
+    * Upgrades_and_day-2_operations,_automated
+    * Integrated logging, monitoring, and alerting
+    * Platform and infrastructure hardening
+    * High availability
+    * Carrier-grade_NFVI
+===============================================================================
+Learn_more Contact_us ›
+
+===============================================================================
+***** Ultra secure things *****
+Ubuntu_Core with transactional updates for a better embedded Linux.
+[Intel]
+[Rexroth]
+[ARM]
+[Dell]
+[Advantech]
+    * OTA compressed updates for apps, kernel, and OS
+    * Automatic rollback and data snapshots
+    * Managed_private_app_stores for secure fleet management
+    * DevSecOps pipeline for edge app delivery
+    * Built-in device recovery and remote disk repair
+    * Up to 15 years of security maintenance for devices
+    * Provable system and software integrity
+    * Secure boot backed by root of trust
+    * Full disk encryption with hardware keys
+    * Support_for_real-time_compute
+    * FIPS-certifiable embedded Linux
+===============================================================================
+Learn_more Contact_us ›
+
+===============================================================================
+***** Workstations and desktops *****
+Optimized_AI/ML and cloud devops.
+The professional developer's preference.
+[Nvidia]
+[Intel]
+[AMD]
+[HP]
+[Dell]
+[Lenovo]
+    * Active_Directory and LDAP integration
+    * Full disk encryption
+    * Security updates for the full_open_source_stack
+    * Estate monitoring_and_management
+    * Configuration lockdown
+    * Local Kubernetes for offline development
+    * Instant Ubuntu on Windows and macOS with WSL and Multipass
+    * Optimized images and certified_workstations
+===============================================================================
+Learn_more Contact_us ›
+
+===============================================================================
+***** Data center automation *****
+Turn a rack into a bare metal cloud.
+Metal-as-a-Service_provisions Windows, ESXi, and Linux.
+[Verizon]
+[Telefonica]
+[Tele2]
+[Telecom Italia]
+[NEC]
+[Barclays]
+    * Bare_metal_cloud with on-demand servers
+    * Remote edge cluster operations
+    * Infrastructure monitoring and discovery
+    * Ansible, Chef, Puppet, SALT, Juju integration
+    * Super_fast_install from scratch
+    * VMWare ESXi, Windows, CentOS, RHEL, Ubuntu
+    * Custom images with pre-installed apps
+    * Disk and network configuration
+    * API-driven DHCP, DNS, PXE, IPAM, provisioning
+    * LDAP authentication and RBAC
+===============================================================================
+Learn_more Contact_us ›
+
+===============================================================================
+***** Smart robots of all shapes and sizes *****
+From turtles to trucks, Ubuntu_drives_the_robot_revolution.
+[ABB]
+[Pal Robotics]
+[Kuka]
+[Apollo]
+[Bosch]
+[BMW]
+    * Full support for ROS_and_ROS2
+    * Security patches for long-term ROS
+    * Fault tolerant over-the-air updates
+    * CIS_certification
+    * Trim time-to-market with SMART START consulting
+    * Leading Robot-as-a-Platform ecosystem
+    * Curated app stores
+===============================================================================
+Learn_more Contact_us ›
+
+===============================================================================
+***** Multiâcloud applications – beyond PAAS *****
+Universal_model-driven_operators_for_classic and Kubernetes_estate.
+[Panasonic]
+[Scania]
+[SBI BTS]
+[Swissquote]
+    * Operate smoothly across public and private cloud
+    * Reusable integration code as open source packages
+    * Python Operator Framework for rapid development
+    * Bring the K8s operator pattern to classic workloads
+    * Lifecycle management and Day 2 operations
+    * Open_collection of community-driven operators
+===============================================================================
+Learn_more_about_universal_operators
+
+ Close
+**** The Ubuntu experts ****
+===============================================================================
+ Canonical certifies, secures and enables enterprise open source on Ubuntu.
+Tell us about your project so we bring the right team to the conversation.
+===============================================================================
+  Tell us about your project
+Tell us about your project
+===============================================================================
+  If you use Ubuntu, which version(s) are you using?
+If you use Ubuntu, which version(s) are you using?
+    * LTS within standard support  ⁰ 24.04 LTS   ⁰ 22.04 LTS   ⁰ 20.04 LTS
+    * LTS out of standard support  ⁰ 18.04 LTS   ⁰ 16.04 LTS   ⁰ 14.04 LTS
+    * Outdated or non-LTS releases non-LTS release  ⁰ non-LTS release   ⁰ 12.04
+      LTS
+    * Other  ⁰ I don't use Ubuntu today   ⁰ I don't know
+===============================================================================
+  What kind of device are you using?
+What kind of device are you using?
+    *  ⁰ Desktop workstation
+    *  ⁰ Physical server
+    *  ⁰ Public cloud
+    *  ⁰ Virtual machine
+    *  ⁰ IoT/Edge device
+===============================================================================
+  How many devices?
+How many devices?
+    *  o < 5 machines
+    *  o 5 - 15 machines
+    *  o 15 - 50 machines
+    *  o 50 - 100 machines
+    *  o > 100 machines
+===============================================================================
+  How do you consume open source?
+How do you consume open source?
+    *  ⁰ Ubuntu repositories
+    *  ⁰ GitHub/Upstream
+    *  ⁰ Internally approved repository
+    *  ⁰ I don't know
+===============================================================================
+  Do you have specific compliance or hardening requirements?
+Do you have specific compliance or hardening requirements?
+    *  ⁰ PCI-DSS
+    *  ⁰ HIPAA
+    *  ⁰ FISMA
+    *  ⁰ FIPS 140
+    *  ⁰ NCSC
+    *  ⁰ DISA-STIG
+    *  ⁰ FedRAMP
+    *  ⁰ CIS Benchmark
+===============================================================================
+  Who is responsible for tracking, testing and applying CVE patches in a timely
+manner?
+Who is responsible for tracking, testing and applying CVE patches in a timely
+manner?
+    *  ⁰ Individual developers
+    *  ⁰ The project team
+    *  ⁰ Third-party vendor
+    *  ⁰ I don't know
+===============================================================================
+  What advice are you looking for?
+What advice are you looking for?
+===============================================================================
+  How should we get in touch?
+How should we get in touch?
+    * First name: [firstName           ] Last name: [lastName            ]
+      Email: [Unknown INPUT type] Company: [company             ] Job Title:
+      [title               ]
+    * Country: [One of: Select.../France/Germany/Japan/United Kingdom/United
+      States of America/ââââââââââââââââââ/
+      Afghanistan/Ãland Islands/Albania/Algeria/American Samoa/Andorra/Angola/
+      Anguilla/Antarctica/Antigua and Barbuda/Argentina/Armenia/Aruba/
+      Australia/Austria/Azerbaijan/Bahamas/Bahrain/Bangladesh/Barbados/Belarus/
+      Belgium/Belize/Benin/Bermuda/Bhutan/Bolivia (Plurinational State of)/
+      Bonaire, Sint Eustatius and Saba/Bosnia and Herzegovina/Botswana/Bouvet
+      Island/Brazil/British Indian Ocean Territory/Brunei Darussalam/Bulgaria/
+      Burkina Faso/Burundi/Cambodia/Cameroon/Canada/Cabo Verde/Cayman Islands/
+      Central African Republic/Chad/Chile/China/Christmas Island/Cocos
+      (Keeling) Islands/Colombia/Comoros/Congo/Congo (Democratic Republic of
+      the)/Cook Islands/Costa Rica/CÃ´te d'Ivoire/Croatia/Cuba/CuraÃ§ao/Cyprus/
+      Czech Republic/Denmark/Djibouti/Dominica/Dominican Republic/Ecuador/
+      Egypt/El Salvador/Equatorial Guinea/Eritrea/Estonia/Ethiopia/Falkland
+      Islands (Malvinas)/Faroe Islands/Fiji/Finland/France/French Guiana/French
+      Polynesia/French Southern Territories/Gabon/Gambia/Georgia/Germany/Ghana/
+      Gibraltar/Greece/Greenland/Grenada/Guadeloupe/Guam/Guatemala/Guernsey/
+      Guinea/Guinea-Bissau/Guyana/Haiti/Heard Island and McDonald Islands/Holy
+      See/Honduras/Hong Kong/Hungary/Iceland/India/Indonesia/Iran (Islamic
+      Republic of)/Iraq/Ireland/Isle of Man/Israel/Italy/Jamaica/Japan/Jersey/
+      Jordan/Kazakhstan/Kenya/Kiribati/Korea (Democratic People's Republic of)/
+      Korea (Republic of)/Kuwait/Kyrgyzstan/Lao People's Democratic Republic/
+      Latvia/Lebanon/Lesotho/Liberia/Libya/Liechtenstein/Lithuania/Luxembourg/
+      Macao/Macedonia (the former Yugoslav Republic of)/Madagascar/Malawi/
+      Malaysia/Maldives/Mali/Malta/Marshall Islands/Martinique/Mauritania/
+      Mauritius/Mayotte/Mexico/Micronesia (Federated States of)/Moldova
+      (Republic of)/Monaco/Mongolia/Montenegro/Montserrat/Morocco/Mozambique/
+      Myanmar/Namibia/Nauru/Nepal/Netherlands/New Caledonia/New Zealand/
+      Nicaragua/Niger/Nigeria/Niue/Norfolk Island/Northern Mariana Islands/
+      Norway/Oman/Pakistan/Palau/Palestine, State of/Panama/Papua New Guinea/
+      Paraguay/Peru/Philippines/Pitcairn/Poland/Portugal/Puerto Rico/Qatar/
+      RÃ©union/Romania/Russian Federation/Rwanda/Saint BarthÃ©lemy/Saint
+      Helena, Ascension and Tristan da Cunha/Saint Kitts and Nevis/Saint Lucia/
+      Saint Martin (French part)/Saint Pierre and Miquelon/Saint Vincent and
+      the Grenadines/Samoa/San Marino/Sao Tome and Principe/Saudi Arabia/
+      Senegal/Serbia/Seychelles/Sierra Leone/Singapore/Sint Maarten (Dutch
+      part)/Slovakia/Slovenia/Solomon Islands/Somalia/South Africa/South
+      Georgia and the South Sandwich Islands/South Sudan/Spain/Sri Lanka/Sudan/
+      Suriname/Svalbard and Jan Mayen/Swaziland/Sweden/Switzerland/Syrian Arab
+      Republic/Taiwan/Tajikistan/Tanzania, United Republic of/Thailand/Timor-
+      Leste/Togo/Tokelau/Tonga/Trinidad and Tobago/Tunisia/Turkey/Turkmenistan/
+      Turks and Caicos Islands/Tuvalu/Uganda/Ukraine/United Arab Emirates/
+      United Kingdom/United States of America/United States Minor Outlying
+      Islands/Uruguay/Uzbekistan/Vanuatu/Venezuela (Bolivarian Republic of)/
+      Viet Nam/Virgin Islands (British)/Virgin Islands (U.S.)/Wallis and
+      Futuna/Western Sahara/Yemen/Zambia/Zimbabwe]
+    * Mobile/cell phone number: [Unknown INPUT type]
+    *  ⁰ I agree to receive information about Canonical's products and
+      services.
+    * By submitting this form, I confirm that I have read and agree to
+      Canonical's_Privacy_Notice and Privacy_Policy.
+    * Website: [website             ]
+    * Name: [name                ]
+    * Submit
+**** Your comments ****
+
+
+
+
+===============================================================================
+***** OpenStack OpenStack *****
+    * What_is_OpenStack
+    * Install
+    * Support
+===============================================================================
+***** Ceph Ceph *****
+    * What_is_Ceph
+    * Managed
+    * Consulting
+    * Docs
+    * Install
+===============================================================================
+***** Kubernetes Kubernetes *****
+    * What_is_Kubernetes
+    * Managed
+    * Install
+    * Docs
+    * Resources
+===============================================================================
+***** Managed_infrastructure Managed_infrastructure *****
+    * Managed_apps
+===============================================================================
+***** AI_/_ML AI_/_ML *****
+    * Consulting
+    * Data_Science
+===============================================================================
+***** Robotics Robotics *****
+    * ROS_ESM
+    * What_is_ROS
+    * Community
+    * Docs
+===============================================================================
+***** IoT IoT *****
+    * App_store
+    * Embedded_Linux
+    * Management
+===============================================================================
+***** Ubuntu_Core Ubuntu_Core *****
+    * Features
+    * Success_stories
+    * Services
+    * Docs
+===============================================================================
+***** Ubuntu_Desktop Ubuntu_Desktop *****
+    * Organizations
+    * Developers
+    * Flavors
+===============================================================================
+***** Ubuntu_Server Ubuntu_Server *****
+    * Hyperscale
+    * Docs
+===============================================================================
+***** Cloud Cloud *****
+    * What_is_cloud_computing
+    * What_is_private_cloud
+    * What_is_hybrid_cloud
+    * What_is_multi-cloud
+    * Public_cloud
+===============================================================================
+***** Security Security *****
+    * Platform_Security
+    * ESM
+    * Livepatch
+    * Security_standards
+    * CVEs
+    * Notices
+    * Assurances
+===============================================================================
+***** Landscape Landscape *****
+    * Features
+    * Managed
+    * Compare
+    * Install
+    * Docs
+    * Log_in_to_Landscape
+===============================================================================
+***** Containers Containers *****
+    * What_are_containers
+    * Chiseled_Ubuntu
+    * Chiseled_and_.NET
+    * Container_Build_Service
+    * Docs
+===============================================================================
+***** Downloads Downloads *****
+    * Desktop
+    * Server
+    * WSL
+    * Core
+    * Cloud
+===============================================================================
+***** Support Support *****
+    * Your_subscriptions
+    * Account_users
+    * Pricing
+    * Discourse
+    * Firefighting_support
+===============================================================================
+***** Pricing Pricing *****
+    * Ubuntu_Pro_Subscription
+    * Desktop_provisioning
+    * Devices
+===============================================================================
+Solutions
+    * AI
+    * Data
+    * Infrastructure
+    * Managed_Infrastructure
+    * Open_source_security
+    * IoT_and_devices
+    * Cloud_native_development
+===============================================================================
+***** Sectors *****
+    * Automotive
+    * Industrial
+    * Public_sector
+    * Telco
+    * Finance
+
+===============================================================================
+Contact_us
+    * About_us
+    * Community
+    * Careers
+    * Blog
+    * Resources
+    * Press_centre
+    * ___
+    * ___
+    * ___
+    * __________
+    * ____
+    * ______
+    * _____
+===============================================================================
+© 2026 Canonical Ltd.
+Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+===============================================================================
+    * Legal_information
+    * Data_privacy
+    * Manage your tracker settings
+    * Report_a_bug_on_this_site
+Back_to_top
+ Go_to_the_top_of_the_page
+
+
