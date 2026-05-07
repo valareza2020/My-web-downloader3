@@ -1,0 +1,129 @@
+name: 📸 ذخیره کامل یک صفحه (قابل اطمینان با redirect)
+
+on:
+  workflow_dispatch:
+    inputs:
+      page_url:
+        description: 'آدرس صفحه مورد نظر'
+        required: true
+        type: string
+
+jobs:
+  save-page:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 30
+
+    steps:
+      - name: دریافت کدها
+        uses: actions/checkout@v4
+
+      - name: نصب ابزارها
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl zip wget html2text
+          npm init -y
+          npm install puppeteer
+
+      - name: ساخت اسکریپت اسکرین‌شات
+        run: |
+          cat > screenshot.js << 'EOF'
+          const puppeteer = require('puppeteer');
+          const url = process.argv[2];
+          const outputPath = process.argv[3];
+          (async () => {
+            const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+            const page = await browser.newPage();
+            await page.setViewport({ width: 1280, height: 720 });
+            await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+            await page.screenshot({ path: outputPath, fullPage: true });
+            await browser.close();
+          })();
+          EOF
+
+      - name: ذخیره صفحه و دانلود محتوا
+        run: |
+          PAGE_URL="${{ github.event.inputs.page_url }}"
+          TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+          SAFE_NAME=$(echo "$PAGE_URL" | sed 's|[/:]|_|g' | cut -c1-50)
+          OUTPUT_DIR="saved_pages/${SAFE_NAME}_${TIMESTAMP}"
+          mkdir -p "$OUTPUT_DIR" "$OUTPUT_DIR/media"
+
+          # دانلود HTML نهایی (دنبال کردن redirectها)
+          echo "🌐 دانلود صفحه نهایی از: $PAGE_URL"
+          curl -L -A "Mozilla/5.0" -o "$OUTPUT_DIR/page.html" "$PAGE_URL"
+
+          # ذخیره آدرس نهایی بعد از redirectها
+          FINAL_URL=$(curl -Ls -o /dev/null -w '%{url_effective}' "$PAGE_URL")
+          echo "$FINAL_URL" > "$OUTPUT_DIR/final_url.txt"
+          echo "🔀 آدرس نهایی: $FINAL_URL"
+
+          # اسکرین‌شات از صفحه نهایی
+          echo "📸 گرفتن اسکرین‌شات از: $FINAL_URL"
+          node screenshot.js "$FINAL_URL" "$OUTPUT_DIR/screenshot.png"
+
+          # استخراج متن خالص از HTML نهایی
+          echo "📝 استخراج متن..."
+          html2text "$OUTPUT_DIR/page.html" > "$OUTPUT_DIR/plain_text.txt"
+
+          # استخراج لینک‌ها از HTML نهایی
+          grep -oP 'href="\K[^"]*' "$OUTPUT_DIR/page.html" | sort -u > "$OUTPUT_DIR/all_links.txt"
+
+          # استخراج لینک تصاویر
+          grep -oP 'src="\K[^"]*\.(jpg|jpeg|png|gif|svg|webp)' "$OUTPUT_DIR/page.html" | sort -u > "$OUTPUT_DIR/image_urls.txt"
+
+          # دانلود تصاویر (حداکثر 30 عدد)
+          COUNT=0
+          while IFS= read -r img; do
+            [ -z "$img" ] && continue
+            COUNT=$((COUNT+1))
+            [ $COUNT -gt 30 ] && break
+            
+            if [[ "$img" =~ ^http ]]; then
+              url="$img"
+            elif [[ "$img" =~ ^// ]]; then
+              url="https:$img"
+            else
+              domain=$(echo "$FINAL_URL" | awk -F/ '{print $3}')
+              url="https://$domain$img"
+            fi
+            
+            fname=$(basename "$img" | cut -d'?' -f1)
+            [ -z "$fname" ] && fname="img_$COUNT.jpg"
+            
+            curl -L -s --max-time 20 -o "$OUTPUT_DIR/media/$fname" "$url" && \
+            echo "✅ دانلود: $fname" || echo "❌ خطا: $img"
+          done < "$OUTPUT_DIR/image_urls.txt"
+
+          # آمار
+          IMG_COUNT=$(find "$OUTPUT_DIR/media" -type f | wc -l)
+          LINK_COUNT=$(wc -l < "$OUTPUT_DIR/all_links.txt")
+          TEXT_SIZE=$(wc -c < "$OUTPUT_DIR/plain_text.txt")
+          
+          echo "IMG_COUNT=$IMG_COUNT" >> $GITHUB_ENV
+          echo "LINK_COUNT=$LINK_COUNT" >> $GITHUB_ENV
+          echo "OUTPUT_DIR=$OUTPUT_DIR" >> $GITHUB_ENV
+
+          # ساخت فایل ZIP
+          cd saved_pages
+          zip -r "${SAFE_NAME}_${TIMESTAMP}.zip" "${SAFE_NAME}_${TIMESTAMP}"
+          cd ..
+
+          # گزارش نهایی
+          echo "================================"
+          echo "✅ ذخیره کامل شد!"
+          echo "📄 متن استخراج شده: $(($TEXT_SIZE / 1000)) کیلوبایت"
+          echo "🔗 تعداد لینک‌ها: $LINK_COUNT"
+          echo "🖼️ تعداد تصاویر دانلود شده: $IMG_COUNT"
+          echo "📦 فایل ZIP: saved_pages/${SAFE_NAME}_${TIMESTAMP}.zip"
+          echo "================================"
+
+      - name: آپلود به گیت‌هاب
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add saved_pages/
+          git commit -m "ذخیره: ${{ github.event.inputs.page_url }} | متن: $(wc -c < $OUTPUT_DIR/plain_text.txt) bytes | تصاویر: ${{ env.IMG_COUNT }}" || echo "هیچ تغییری"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}
